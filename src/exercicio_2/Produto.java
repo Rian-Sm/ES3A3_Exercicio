@@ -1,7 +1,5 @@
 package exercicio_2;
 
-import java.lang.Exception;
-
 public class Produto {
     private String descricao;
     private Double valor;
@@ -22,11 +20,6 @@ public class Produto {
     }
 
     public void setValor(Double valor){
-        if (valor > 0){
-            this.valor = valor;
-        } else {       
-            throw new Exception("vaor invalido");
-        }
+        this.valor = valor;
     }
-    
 }
