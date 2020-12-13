@@ -13,7 +13,7 @@ public class Venda {
     public Venda(Integer codigo){
         setCodigo(codigo);
         this.data = LocalDate.now();
-        this.itens = new ArrayList();
+        this.itens = new ArrayList<Item>();
     }
     public void setCodigo(Integer codigo) {
         this.codigo = codigo;
